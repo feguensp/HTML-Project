@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(229, 234, 236);
+    font-family: Assistant,Segoe UI; margin-left: 10px;margin-right: 10px;margin-top: 2px;margin-bottom: 0px;
+  }
+h1{
+  background-color: rgb(18, 18, 48); color: white;margin-bottom: 0px;
+}
+
+#intro{
+  font-size:8pt; padding-top: 0px;margin-top: 0px;color: white; background-color:rgb(18, 18, 48) ;
+}
+
+#navegacion{
+  margin-left: 0px; padding-left: 0px;
+}
+#navegacion li{
+  list-style: none; padding: 5px 10px; display: inline-block; font-weight: bold; border: 1px solid grey; background-color: rgb(187, 187, 187); 
+}
+article, form{
+  background-color: rgb(199, 197, 197); padding: 0px 15px;
+}
+h2{
+  padding-top: 5px; padding-bottom: 2px; margin-bottom: 2px;
+}
+.subtitulo{
+color: rgb(20, 20, 177);font-weight: bold;
+}
+
+.fuente,#contacto{
+  margin-top: 0px;margin-bottom: 5px; font-size: 12px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Mi Blog Personal</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Es un espacio para compartir articulos">
+    <meta name="author"content="Feguens Poitevien">
+    <meta name="keyword" content="blog, mi primer blog, html">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1 id="cabecera">Mi Blog Personal</h1>
+        <p id="intro">Este es un espacio para compartir archivo de interes comun y tambien es mi proyecto final para el segundo periodo en el Colegio Genesis</p>
+        <nav>
+            <ul id="navegacion">
+                <li><a href="#cabecera">Inicio</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#formulario">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>El Lenguage HTML</h2>
+            <p><strong>HTML</strong> (Lenguaje de Marcas de Hipertexto, del inglés <i>HyperText Markup Language</i>) es el componente más básico de la Web. Define el significado y la estructura del contenido web. Además de HTML, generalmente se utilizan otras tecnologías para describir la apariencia/presentación de una página web (CSS) o la funcionalidad/comportamiento (JavaScript).
+            <br><br>
+            <strong>"Hipertexto"</strong> hace referencia a los enlaces que conectan páginas web entre sí, ya sea dentro de un único sitio web o entre sitios web. Los enlaces son un aspecto fundamental de la Web. Al subir contenido a Internet y vincularlo a las páginas creadas por otras personas, te conviertes en un participante activo en la «<i>World Wide Web</i>» (Red Informática Mundial). <a href="https://developer.mozilla.org/es/docs/Web/HTML">Seguir leyendo...</a></p>
+            
+            <img src="https://www.aprendoencasa.com/wp-content/uploads/2019/01/html5-curso.png" alt="Imagen de HTML" width="400">
+            
+            <p class="fuente">Fuente: Developer Mozillla</p>
+            <p class="fuente" style="margin-bottom: 20px;">Publicado el: <time datetime="2001-01-01">1<sup>ero</sup> de Enero del 2021</time></p>
+        </article>
+
+        <hr size="0.5" color="grey" >
+        <article>
+            <h2>Realizar Una Pagina en HTML</h2>
+            <p>Para empezar, veamos cuáles son los primeros pasos para hacer una página web en HTML. Los documentos HTML son archivos con extensiones .html o .htm y pueden ser visualizados en cualquier navegador. El cual hace la lectura del archivo y renderiza el contenido para que los usuarios puedan verlo.
+                <ol>
+                    <li><span class="subtitulo">Elegir un editor HTML:</span> Existen diferentes tipos de editores HTML, para distintos entornos como aplicaciones de escritorio, aplicaciones moviles, y aplicaciones web.</li>
+                    <li><span class="subtitulo">Definir el proyecto:</span> Luego de elegir un editor HTML, es momento de  crear esa idea que tanto te gusta, hablar de tí o usar algún tema como ejemplo. En este caso, hablaremos de los editores de texto. <br></li>
+                    <li><span class="subtitulo">Estructurar el proyecto:</span> vez que hayas creado el documento, vamos a empezar con el código. En primer lugar, vamos a escribir el siguiente bloque: 
+                        <p><img src="https://www.hostgator.mx/blog/wp-content/uploads/2019/06/sitio-web-en-html-hostgator.png" alt="html" width="500"></p>
+                        <p><span style="font-weight: 400;">Ahora, vamos a la explicación paso por paso del código. &nbsp;</span></p>
+                        <ul>
+                        <li style="font-weight: 400;"><b>&lt;!DOCTYPE HTML&gt;:</b><span style="font-weight: 400;"> Es la etiqueta que define que el documento es HTML;</span></li>
+                        <li style="font-weight: 400;"><b>&lt;HTML&gt;:</b><span style="font-weight: 400;"> Es la principal etiqueta de una página HTML;</span></li>
+                        <li style="font-weight: 400;"><b>&lt;HEAD&gt;:</b><span style="font-weight: 400;"> Es la etiqueta que abre el bloque de información sobre la web;</span></li>
+                        <li style="font-weight: 400;"><b>&lt;TITLE&gt;: </b><span style="font-weight: 400;">Acá, escribimos el título genial que daremos a la página web. Ese que aparece en el borde de la ventana del navegador.</span></li>
+                        </ul>
+                    </li><br>
+                    <li><span class="subtitulo">Crear los contenidos:</span> Al grabar el contenido, lo nombramos index.html, dónde index es el nombre del documento y .html es la extensión que define que se trata de un archivo HTML. ¿Hecho? ¡Seguimos!</li>
+                    <li><span class="subtitulo">Definir la aparencia y el comportamiento:</span> Pues, ¡muy bien! Una página web apenas en blanco y negro no llama mucho la atención, ¿verdad? Entonces, vamos a agregar unas líneas más de código para hacer tu web un poco más atractiva.</li>
+    
+                </ol>
+                <a href="https://www.hostgator.mx/blog/pagina-web-en-html/">Seguir leyendo...</a>
+            </p>
+            
+
+            <iframe id="video" width="400" height="225" src="https://www.youtube.com/embed/rbuYtrNUxg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <p class="fuente">Fuente: HostGator</p>
+            <p class="fuente" style="margin-bottom: 20px;">Publicado el: <time datetime="2009-06-06">jueves, 6 de junio de 2019</time></p>
+        </article>
+        <hr size="0.25" color="grey">
+        <form action="mailto:feguenspoitevien@genesis.edu.do" class="enlacesfavoritos" id="formulario">
+            <h2> Contactos </h2>
+            <p id="contacto">Dejanos tus comentarios y tu nombre para asi seguir mejorandoy mantenernos en contacto.</p><br>
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname" value="Juan"><br>
+            <label for="lname">Apellido:</label><br>
+            <input type="text" id="lname" name="lname" value="Apellido"><br><br>
+          <textarea name="message" rows="10" >Su mensaje aqui...</textarea>    
+          <br><br>
+            <input type="submit" value="Enviar">
+      </form>
+    </main>
+
+    <footer>
+        <hr size="0.25" color="grey">
+        <p style="margin-top: 20px;">Esta pagina fue diseñada como ejemplo. Copyright ©, 2021</p>
+    </footer>
+
+    
+</body>
+
+</html>
